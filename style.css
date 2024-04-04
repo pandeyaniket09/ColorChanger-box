@@ -1,0 +1,44 @@
+body {
+    font-style:italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(pexels-pixabay-531880.jpg);
+    background-size: cover;
+  }
+  
+  #colorBox {
+    width: 20vw;
+    height: 60vh;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: aqua;
+  }
+  
+  .button{
+    background-color: gold;
+    padding: 20px 40px;
+    font: bolder;
+    margin: 20px;
+    font-size: large;
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+  }
+  .changer{
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+  }
+  .button:hover{
+    color: rgb(128, 30, 30);
+    background-color: rgba(red, green, blue, alpha);
+  }
